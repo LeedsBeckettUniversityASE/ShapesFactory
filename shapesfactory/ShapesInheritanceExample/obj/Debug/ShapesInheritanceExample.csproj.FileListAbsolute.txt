@@ -1,0 +1,10 @@
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.exe.config
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.exe
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.pdb
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csprojAssemblyReference.cache
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.Form1.resources
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.Properties.Resources.resources
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csproj.GenerateResource.cache
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csproj.CoreCompileInputs.cache
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.exe
+C:\Users\dmull\source\repos\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.pdb
