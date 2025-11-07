@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace ShapesInheritanceExample
 {
-    class Rectangle:Shape
+    /// <summary>
+    /// Rectangle class to draw a circle on a bitmap.
+    /// </summary>
+    class Rectangle :Shape
     {
         int width, height;
         public Rectangle():base()
@@ -22,12 +25,12 @@ namespace ShapesInheritanceExample
             this.height = height;
         }
 
-        public override void set(Color colour, params int[] list)
+        public void set(Color colour, int x, int y, int width, int height)
         {
-            //list[0] is x, list[1] is y, list[2] is width, list[3] is height
-            base.set(colour, list[0], list[1]);
-            this.width = list[2];
-            this.height = list[3];
+            //note: This is not overridden, it is overloaded as it isn't the same method signature as in Shape
+            base.set(colour,x,y);
+            this.width = width;
+            this.height =height;
 
         }
 
@@ -48,6 +51,12 @@ namespace ShapesInheritanceExample
         public override double calcPerimeter()
         {
             return 2 * width + 2 * height;
+        }
+
+        public override string ToString() //all classes inherit from object and ToString() is abstract in object
+        {
+            String text = base.ToString() + "  " + this.width + " " + this.height;
+            return text;
         }
     }
 }

@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace ShapesInheritanceExample
 {
-    class Square:Rectangle
+    /// <summary>
+    /// Square class to draw a circle on a bitmap.
+    /// </summary>
+    class Square :Rectangle
     {
         private int size;
 

@@ -12,15 +12,13 @@ using System.Windows.Forms;
 
 namespace ShapesInheritanceExample
 {
+    /// <summary>
+    /// Shapes Example using the Facory Design pattern to create the shapes.
+    /// </summary>
     public partial class Form1 : Form 
     {
-        ArrayList shapes = new ArrayList();
-        
-        
-
-
-
-
+        List<Shape> shapes = new List<Shape>();
+         
         public Form1()
         {
             InitializeComponent();
@@ -38,9 +36,6 @@ namespace ShapesInheritanceExample
                 Console.WriteLine("Invalid shape: " + e);
                 
             }
-
-            
-            
 
             //add some random shapes
             Random rand = new Random(77887);
@@ -60,27 +55,32 @@ namespace ShapesInheritanceExample
                 Shape s;
                 try
                 {
+                    Console.WriteLine("Creating shape type " + shape);
                     switch (shape)
                     {
                         case 0:
-                            s = factory.getShape("circle");
-                            s.set(newColour, x, y, size);
-                            shapes.Add(s);// new Circle(newColour, x, y, size));
+                            Circle c;
+                            c = (Circle) factory.getShape("circle");
+                            c.set(newColour, x, y, size);
+                            shapes.Add(c);// new Circle(newColour, x, y, size));
 
                             break;
                         case 1:
-                            s = factory.getShape("rectangle");
-                            s.set(newColour, x, y, size, size);
-                            shapes.Add(s);
+                            Rectangle r;
+                            r = (Rectangle) factory.getShape("rectangle");
+                            r.set(newColour, x, y, size, size);
+                            shapes.Add(r);
                             break;
                         case 2:
-                            s = factory.getShape("square");
-                            s.set(newColour, x, y, size, size);
-                            shapes.Add(s);
+                            Square sq;
+                            sq = (Square) factory.getShape("square");
+                            sq.set(newColour, x, y, size, size);
+                            shapes.Add(sq);
                             break;
                         case 3:
-                            s = factory.getShape("tritangle");
-                            s.set(newColour, x, y, size, size);
+                           //there isn't a triangle
+                            s = factory.getShape("tri");
+                            s.set(newColour, x, y);
                             shapes.Add(s);
                             break;
 
@@ -95,7 +95,15 @@ namespace ShapesInheritanceExample
             
         }
 
-
+        /// <summary>
+        /// Handles the Paint event for the form, rendering all shapes in the collection to the screen.
+        /// </summary>
+        /// <remarks>This method iterates through a collection of shapes and calls their <c>draw</c>
+        /// method to render them onto the form's graphics surface. If a null shape is encountered in the collection, a
+        /// warning message is logged to the console.</remarks>
+        /// <param name="sender">The source of the event, typically the form being painted.</param>
+        /// <param name="e">A <see cref="PaintEventArgs"/> object that provides data for the Paint event, including the graphics surface
+        /// to draw on.</param>
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             Console.WriteLine("paint called");
@@ -113,9 +121,6 @@ namespace ShapesInheritanceExample
                 }
                 else
                     Console.WriteLine("invalid shape in array"); //shouldn't happen as factory does not produce rubbish
-
-               
-
 
             }
         }

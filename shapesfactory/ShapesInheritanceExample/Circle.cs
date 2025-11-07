@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace ShapesInheritanceExample
 {
+    /// <summary>
+    /// Circle class to draw a circle on a bitmap.
+    /// </summary>
     class Circle : Shape
     {
         int radius;
@@ -23,13 +26,11 @@ namespace ShapesInheritanceExample
         }
 
       
-        public override void set( Color colour, params int[] list)
+        public  void set( Color colour, int x, int y, int radius)
         {
-            //list[0] is x, list[1] is y, list[2] is radius
-            base.set(colour, list[0], list[1]);
-            this.radius = list[2];
-            
-
+            //note: This is not overridden, it is overloaded as it isn't the same method signature as in Shape
+            base.set(colour, x, y);
+            this.radius = radius;
         }
 
     
