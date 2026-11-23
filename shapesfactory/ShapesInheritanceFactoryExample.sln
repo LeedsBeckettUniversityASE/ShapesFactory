@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12217.157 stable
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesInheritanceExample", "ShapesInheritanceExample\ShapesInheritanceExample.csproj", "{216EA3F5-1826-4992-9C6C-36B3E4D56831}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesInheritanceFactoryExample", "ShapesInheritanceExample\ShapesInheritanceFactoryExample.csproj", "{216EA3F5-1826-4992-9C6C-36B3E4D56831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDA9A306-9FED-4FE0-BE86-D2136AEEB4C9}
 	EndGlobalSection
 EndGlobal

@@ -19,3 +19,13 @@ C:\Users\post\Source\Repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\
 C:\Users\post\Source\Repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.exe
 C:\Users\post\Source\Repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.pdb
 C:\Users\post\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.exe.config
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.exe.config
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.exe
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\bin\Debug\ShapesInheritanceExample.pdb
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csproj.AssemblyReference.cache
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.Form1.resources
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.Properties.Resources.resources
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csproj.GenerateResource.cache
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.csproj.CoreCompileInputs.cache
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.exe
+C:\Users\Dunc\source\repos\ShapesFactory\shapesfactory\ShapesInheritanceExample\obj\Debug\ShapesInheritanceExample.pdb

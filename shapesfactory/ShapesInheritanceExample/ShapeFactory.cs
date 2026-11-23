@@ -18,7 +18,7 @@ namespace ShapesInheritanceExample
         /// <returns>Shape reference or throws exception if shape unknown.</returns>
         public Shape getShape(String shapeType)
         {
-            shapeType = shapeType.ToUpper().Trim(); //yoi could argue that you want a specific word string to create an object but I'm allowing any case combination
+            shapeType = shapeType.ToUpper().Trim(); //you could argue that you want a specific word string to create an object but I'm allowing any case combination
             
            
             if (shapeType.Equals("CIRCLE"))
@@ -37,7 +37,8 @@ namespace ShapesInheritanceExample
             }
             else
             {
-                //if we get here then what has been passed in is inkown so throw an appropriate exception
+                //if we get here then what has been passed in is unkown so throw an appropriate exception
+                //in reality you would probably want to create your own exception class for this but for this example I'm just using the built in ArgumentException
                 System.ArgumentException argEx = new System.ArgumentException("Factory error: "+shapeType+" does not exist");
                 throw argEx;
             }
